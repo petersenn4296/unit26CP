@@ -1,26 +1,29 @@
 
-
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title></title>
 </head>
 
-<form>
-  <div>
-    <fieldset>
-      <input type="text" name="email" placeholder="Email here...">
-      <input type="text" name="password" placeholder="Password...">
-      <input type="text" name="GitHub username" placeholder="GitHub Username">
-      <input type="checkbox" name="remember me"><label>Rememeber Me</label>
-    </fieldset>
-  </div>
-  <div>
-    <fieldset>
-      <input type="radio" name="Enterprise"><label>Enterprise</label><br>
-      <input type="radio" name="Pro"><label>Pro</label><br>
-      <input type="radio" name="Free"><label>Free</label>
-    </fieldset>
-  </div>
-</form>
+<body>
+  <form>
+    <div>
+      <fieldset>
+        <input type="email" name="email" id="email" placeholder="Email here..." required>
+        <input type="password" name="password" id="password" placeholder="Password..." required>
+        <input type="text" name="GitHub username" id="GitHub Username" placeholder="GitHub Username">
+        <input type="checkbox" name="remember me"><label>Rememeber Me</label>
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <input type="radio" name="press" id="enterprise"><label for="enterprise">Enterprise</label><br>
+        <input type="radio" name="press" id="pro"><label for="pro">Pro</label><br>
+        <input type="radio" name="press" id="Free"><label for="Free">Free</label>
+      </fieldset>
+    </div>
+  </form>
+</body>
+
 </html>
